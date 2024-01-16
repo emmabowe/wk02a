@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+
+.parent{
+    background-color: white;
+}
+
+.parent .child{
+    background-color: brown;
+    color:blue;
+}
+
+.childfoot{
+    color: aliceblue;
+    border: thin solid white;
+}
+
+.pad{
+    padding: 20px;
+    margin: 10px;
+}
+
+.child2{
+    display: flex;
+}
+
+.grand1, .grand2{
+    width: 50%;
+}
+
+
